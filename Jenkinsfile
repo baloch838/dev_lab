@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-		git branch: 'main', url: 'https://github.com/baloch838/devops_lab'
+		git branch: 'main', url: 'https://github.com/baloch838/dev_lab'
                 echo 'checkout..'
             }
         }
